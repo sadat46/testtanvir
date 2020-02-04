@@ -18,5 +18,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('^/', view.index.html)
+    path('', blog.urls),
 ]
